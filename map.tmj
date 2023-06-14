@@ -8220,6 +8220,23 @@
                  "width":650.243,
                  "x":3150.63607575758,
                  "y":2624.30290909091
+                }, 
+                {
+                 "class":"website",
+                 "height":174.666666666667,
+                 "id":161,
+                 "name":"programme",
+                 "properties":[
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"src\/prog.html"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":209.333333333333,
+                 "x":644,
+                 "y":2344
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -8488,7 +8505,7 @@
          "y":0
         }],
  "nextlayerid":145,
- "nextobjectid":161,
+ "nextobjectid":162,
  "orientation":"orthogonal",
  "properties":[
         {
