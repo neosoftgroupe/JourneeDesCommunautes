@@ -8230,7 +8230,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"\/src\/prog.html"
+                         "value":"www.google.fr"
                         }],
                  "rotation":0,
                  "visible":true,
