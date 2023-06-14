@@ -8230,7 +8230,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"src\/prog.html"
+                         "value":"\/src\/prog.html"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -8505,7 +8505,7 @@
          "y":0
         }],
  "nextlayerid":145,
- "nextobjectid":162,
+ "nextobjectid":163,
  "orientation":"orthogonal",
  "properties":[
         {
