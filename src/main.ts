@@ -67,7 +67,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('indice9').subscribe(closePopup)
 */
-    WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+    WA.chat.sendChatMessage('Hello world', WA.player.name);
 
     WA.room.area.onEnter('rs').subscribe(() => {
         currentPopup = WA.ui.openPopup("rsPopup", "Viens nous suivre sur les réseaux sociaux !", [{
