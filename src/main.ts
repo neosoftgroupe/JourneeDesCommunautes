@@ -96,7 +96,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
         heureAction.setHours(23); // Heure : 9 (exemple)
-        heureAction.setMinutes(35); // Minutes : 0 (exemple)
+        heureAction.setMinutes(40); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
