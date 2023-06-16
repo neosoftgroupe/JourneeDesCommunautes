@@ -81,7 +81,7 @@ WA.onInit().then(() => {
 
     // Définir l'heure à laquelle tu souhaites afficher le calque
     var heureAffichage = new Date();
-    heureAffichage.setHours(21); // Heure : 9 (exemple)
+    heureAffichage.setHours(22); // Heure : 9 (exemple)
     heureAffichage.setMinutes(40); // Minutes : 0 (exemple)
     heureAffichage.setSeconds(0); // Secondes : 0 (exemple)
 
@@ -90,16 +90,19 @@ WA.onInit().then(() => {
     //WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
 
     WA.ui.banner.openBanner({
-        id: "banner-test",
+        id: "banner",
         text: "Banner test",
-        bgColor: "#000000",
-        textColor: "#ffffff",
-        closable: false,
+        bgColor: "#051742",
+        textColor: "#FF5252",
+        closable: true,
+        timeToClose: 12000,
         link: {
             label: "Test",
             url: "https://workadventu.re"
         }
     });
+
+    WA.ui.displayBubble()
 
     // Vérifier si l'heure actuelle est égale à l'heure d'affichage
     if (maintenant.getTime() === heureAffichage.getTime()) {
