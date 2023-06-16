@@ -89,6 +89,18 @@ WA.onInit().then(() => {
     //WA.chat.sendChatMessage(maintenant.getTime(), " Mr Robot");
     //WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
 
+    WA.ui.banner.openBanner({
+        id: "banner-test",
+        text: "Banner test",
+        bgColor: "#000000",
+        textColor: "#ffffff",
+        closable: false,
+        timeToClose: 120000,
+        link: {
+            label: "Test",
+            url: "https://workadventu.re"
+        }
+    });
     // Vérifier si l'heure actuelle est égale à l'heure d'affichage
     if (maintenant.getTime() === heureAffichage.getTime()) {
         // Afficher ton calque ou exécuter l'action souhaitée
