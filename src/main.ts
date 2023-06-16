@@ -102,7 +102,8 @@ WA.onInit().then(() => {
         // Vérifier si l'heure actuelle correspond à l'heure d'action
         if (maintenant.getTime() === heureAction.getTime()) {
           // Déclencher ton action ici
-          console.log("Action déclenchée à l'heure précise !");
+          //console.log("Action déclenchée à l'heure précise !");
+          WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
         }
       }
       
