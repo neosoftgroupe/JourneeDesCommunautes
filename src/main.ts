@@ -95,7 +95,7 @@ WA.onInit().then(() => {
         bgColor: "#051742",
         textColor: "#FF5252",
         closable: true,
-        timeToClose: '12000',
+        //timeToClose: 12000,
         link: {
             label: "Test",
             url: "https://workadventu.re"
