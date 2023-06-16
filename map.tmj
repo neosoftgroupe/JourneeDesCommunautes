@@ -3519,7 +3519,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet.workadventure.labneosoft.fr"
+                         "value":"framasoft.org"
                         }, 
                         {
                          "name":"meetingRoomLabel",
