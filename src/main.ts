@@ -89,9 +89,29 @@ WA.onInit().then(() => {
     //WA.chat.sendChatMessage(maintenant.getTime(), " Mr Robot");
     //WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
 
+    function verifierHeure() {
+        // Obtenir l'heure actuelle
+        var maintenant = new Date();
+      
+        // Définir l'heure à laquelle tu souhaites déclencher l'action
+        var heureAction = new Date();
+        heureAction.setHours(23); // Heure : 9 (exemple)
+        heureAction.setMinutes(35); // Minutes : 0 (exemple)
+        heureAction.setSeconds(0); // Secondes : 0 (exemple)
+      
+        // Vérifier si l'heure actuelle correspond à l'heure d'action
+        if (maintenant.getTime() === heureAction.getTime()) {
+          // Déclencher ton action ici
+          console.log("Action déclenchée à l'heure précise !");
+        }
+      }
+      
+      // Vérifier l'heure toutes les secondes
+      setInterval(verifierHeure, 1000);
+
     WA.ui.banner.openBanner({
         id: "banner",
-        text: "Banner test",
+        text: "Ca va commencer en salle 1",
         bgColor: "#051742",
         textColor: "#FF5252",
         closable: true,
