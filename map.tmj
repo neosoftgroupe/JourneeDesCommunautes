@@ -3502,11 +3502,6 @@
                  "opacity":0.9,
                  "properties":[
                         {
-                         "name":"JitsiNoPrefix",
-                         "type":"string",
-                         "value":"true"
-                        }, 
-                        {
                          "name":"jitsiConfig",
                          "type":"string",
                          "value":"{\n  \"startWithAudioMuted\": true,\n  \"startWithVideoMuted\": true\n}"
@@ -3520,11 +3515,6 @@
                          "name":"jitsiUrl",
                          "type":"string",
                          "value":"framatalk.org"
-                        }, 
-                        {
-                         "name":"meetingRoomLabel",
-                         "type":"string",
-                         "value":"Room01"
                         }, 
                         {
                          "name":"silent",
