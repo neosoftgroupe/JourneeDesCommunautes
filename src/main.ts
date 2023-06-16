@@ -95,12 +95,12 @@ WA.onInit().then(() => {
         bgColor: "#000000",
         textColor: "#ffffff",
         closable: false,
-        timeToClose: 120000,
         link: {
             label: "Test",
             url: "https://workadventu.re"
         }
     });
+
     // Vérifier si l'heure actuelle est égale à l'heure d'affichage
     if (maintenant.getTime() === heureAffichage.getTime()) {
         // Afficher ton calque ou exécuter l'action souhaitée
