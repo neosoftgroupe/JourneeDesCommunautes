@@ -67,7 +67,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('indice9').subscribe(closePopup)
 */
-    WA.chat.sendChatMessage('Bienvenue ' + WA.player.name, "Mr Robot");
+    
 
     /*WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
@@ -82,8 +82,10 @@ WA.onInit().then(() => {
     // Définir l'heure à laquelle tu souhaites afficher le calque
     var heureAffichage = new Date();
     heureAffichage.setHours(21); // Heure : 9 (exemple)
-    heureAffichage.setMinutes(25); // Minutes : 0 (exemple)
+    heureAffichage.setMinutes(30); // Minutes : 0 (exemple)
     heureAffichage.setSeconds(0); // Secondes : 0 (exemple)
+
+    WA.chat.sendChatMessage('Bienvenue ' + WA.player.name + " " + maintenant.getTime() + " " + heureAffichage.getTime(), " Mr Robot");
 
     // Vérifier si l'heure actuelle est égale à l'heure d'affichage
     if (maintenant.getTime() === heureAffichage.getTime()) {
