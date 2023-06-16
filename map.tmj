@@ -3519,7 +3519,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"framasoft.org"
+                         "value":"framatalk.org"
                         }, 
                         {
                          "name":"meetingRoomLabel",
