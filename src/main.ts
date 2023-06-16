@@ -69,6 +69,28 @@ WA.onInit().then(() => {
 */
     WA.chat.sendChatMessage('Bienvenue ' + WA.player.name, "Mr Robot");
 
+    /*WA.room.area.onEnter('clock').subscribe(() => {
+        const today = new Date();
+        const time = today.getHours() + ":" + today.getMinutes();
+		if (time == 
+        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
+    })*/
+
+    // Obtenir la date et l'heure actuelles
+    var maintenant = new Date();
+
+    // Définir l'heure à laquelle tu souhaites afficher le calque
+    var heureAffichage = new Date();
+    heureAffichage.setHours(21); // Heure : 9 (exemple)
+    heureAffichage.setMinutes(25); // Minutes : 0 (exemple)
+    heureAffichage.setSeconds(0); // Secondes : 0 (exemple)
+
+    // Vérifier si l'heure actuelle est égale à l'heure d'affichage
+    if (maintenant.getTime() === heureAffichage.getTime()) {
+        // Afficher ton calque ou exécuter l'action souhaitée
+        WA.chat.sendChatMessage("C'est l'heure !", "Mr Robot");
+    }
+
     WA.room.area.onEnter('rs').subscribe(() => {
         currentPopup = WA.ui.openPopup("rsPopup", "Viens nous suivre sur les réseaux sociaux !", [{
             label: "Linkedin",
