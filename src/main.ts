@@ -82,12 +82,12 @@ WA.onInit().then(() => {
     // Définir l'heure à laquelle tu souhaites afficher le calque
     var heureAffichage = new Date();
     heureAffichage.setHours(21); // Heure : 9 (exemple)
-    heureAffichage.setMinutes(35); // Minutes : 0 (exemple)
+    heureAffichage.setMinutes(40); // Minutes : 0 (exemple)
     heureAffichage.setSeconds(0); // Secondes : 0 (exemple)
 
     WA.chat.sendChatMessage('Bienvenue ' + WA.player.name, " Mr Robot");
-    WA.chat.sendChatMessage(maintenant.getTime(), " Mr Robot");
-    WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
+    //WA.chat.sendChatMessage(maintenant.getTime(), " Mr Robot");
+    //WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
 
     // Vérifier si l'heure actuelle est égale à l'heure d'affichage
     if (maintenant.getTime() === heureAffichage.getTime()) {
