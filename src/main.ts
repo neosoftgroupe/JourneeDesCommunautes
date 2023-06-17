@@ -85,10 +85,10 @@ WA.onInit().then(() => {
     heureAffichage.setMinutes(40); // Minutes : 0 (exemple)
     heureAffichage.setSeconds(0); // Secondes : 0 (exemple)
 
-    WA.chat.sendChatMessage('Bienvenue ' + WA.player.name, " Mr Robot");
+    WA.chat.sendChatMessage('Bienvenue à la Journée des Communautés ' + WA.player.name + ' !', " Mr Robot");
     //WA.chat.sendChatMessage(maintenant.getTime(), " Mr Robot");
     //WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
-
+    /*
     function verifierHeure() {
         // Obtenir l'heure actuelle
         var maintenant = new Date();
@@ -109,7 +109,7 @@ WA.onInit().then(() => {
       
       // Vérifier l'heure toutes les secondes
       setInterval(verifierHeure, 1000);
-
+    
     WA.ui.banner.openBanner({
         id: "banner",
         text: "Ca va commencer en salle 1",
@@ -122,14 +122,15 @@ WA.onInit().then(() => {
             url: "https://workadventu.re"
         }
     });
-
+    
     WA.ui.displayBubble()
-
+    
     // Vérifier si l'heure actuelle est égale à l'heure d'affichage
     if (maintenant.getTime() === heureAffichage.getTime()) {
         // Afficher ton calque ou exécuter l'action souhaitée
         WA.chat.sendChatMessage("C'est l'heure !", "Mr Robot");
     }
+    */
 
     WA.room.area.onEnter('rs').subscribe(() => {
         currentPopup = WA.ui.openPopup("rsPopup", "Viens nous suivre sur les réseaux sociaux !", [{
