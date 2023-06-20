@@ -156,8 +156,8 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('rs').subscribe(closePopup)
 
     WA.room.area.onEnter('fdn').subscribe(() => {
-        currentPopup = WA.ui.openPopup("fdnPopup", "Viens t'inscrire à la Fresque du Numérique !", [{
-            label: 'La Fresque !',
+        currentPopup = WA.ui.openPopup("fdnPopup", "Tu veux des infos sur la Fresque du Numérique ?", [{
+            label: "C'est par ici !",
             className: 'primary',
             callback: (popup) => {
                 WA.openTab('https://landing.neosoft.fr/numerique-responsable'),
