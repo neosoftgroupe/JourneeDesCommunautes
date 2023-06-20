@@ -85,7 +85,7 @@ WA.onInit().then(() => {
     heureAffichage.setMinutes(40); // Minutes : 0 (exemple)
     heureAffichage.setSeconds(0); // Secondes : 0 (exemple)
     */
-    WA.chat.sendChatMessage('Bienvenue à la Journée des Communautés ' + WA.player.name + ' !', " Mr Robot");
+    //WA.chat.sendChatMessage('Bienvenue à la Journée des Communautés ' + WA.player.name + ' !', " Mr Robot");
     //WA.chat.sendChatMessage(maintenant.getTime(), " Mr Robot");
     //WA.chat.sendChatMessage(heureAffichage.getTime(), " Mr Robot");
     /*
@@ -133,7 +133,7 @@ WA.onInit().then(() => {
     */
 
     WA.room.area.onEnter('rs').subscribe(() => {
-        currentPopup = WA.ui.openPopup("rsPopup", "Viens nous suivre sur les réseaux sociaux !", [{
+        currentPopup = WA.ui.openPopup("rsPopup", "Tu veux nous suivre sur les réseaux sociaux ?", [{
             label: "Linkedin",
             className: "primary",
             callback: (popup) => {
@@ -154,6 +154,20 @@ WA.onInit().then(() => {
     })
 
     WA.room.area.onLeave('rs').subscribe(closePopup)
+
+    WA.room.area.onEnter('fdn').subscribe(() => {
+        currentPopup = WA.ui.openPopup("fdnPopup", "Viens t'inscrire à la Fresque du Numérique !", [{
+            label: 'La Fresque !',
+            className: 'primary',
+            callback: (popup) => {
+                WA.openTab('https://landing.neosoft.fr/numerique-responsable'),
+                popup.close();
+            }
+        }]);
+
+    })
+
+    WA.room.area.onLeave('fdn').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
