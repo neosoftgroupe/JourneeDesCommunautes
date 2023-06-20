@@ -8498,6 +8498,38 @@
                  "width":650.243,
                  "x":3150.63607575758,
                  "y":2612.30290909091
+                }, 
+                {
+                 "class":"area",
+                 "height":796,
+                 "id":167,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"Le Salon de discussion de l'Ampli"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Salon Ampli"
+                        }, 
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoomMargin",
+                         "type":"float",
+                         "value":0.8
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":856.667,
+                 "x":515.6665,
+                 "y":1290
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -8777,7 +8809,7 @@
          "y":0
         }],
  "nextlayerid":149,
- "nextobjectid":167,
+ "nextobjectid":168,
  "orientation":"orthogonal",
  "properties":[
         {
