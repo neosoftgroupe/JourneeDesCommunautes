@@ -5796,6 +5796,11 @@
                          "value":"{\n  \"startWithAudioMuted\": true,\n  \"startWithVideoMuted\": true\n}"
                         }, 
                         {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Amphi"
+                        }, 
+                        {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
                          "value":"speaker"
