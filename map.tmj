@@ -5791,24 +5791,9 @@
                          "value":"{\n  \"startWithAudioMuted\": true,\n  \"startWithVideoMuted\": true\n}"
                         }, 
                         {
-                         "name":"jitsiNoPrefix",
-                         "type":"string",
-                         "value":"true"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Amphi"
-                        }, 
-                        {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
                          "value":"Speaker"
-                        }, 
-                        {
-                         "name":"meetingRoomLabel",
-                         "type":"string",
-                         "value":"Ampli"
                         }],
                  "type":"tilelayer",
                  "visible":true,
