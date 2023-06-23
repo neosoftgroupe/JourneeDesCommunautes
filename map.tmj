@@ -2923,6 +2923,11 @@
                          "value":"Soig"
                         }, 
                         {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
                          "name":"jitsiUrl",
                          "type":"string",
                          "value":"meet04.workadventure.labneosoft.fr"
