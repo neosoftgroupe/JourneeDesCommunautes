@@ -5808,7 +5808,12 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet.jit.si"
+                         "value":"meet01.workadventure.labneosoft.fr"
+                        }, 
+                        {
+                         "name":"liveStreaming",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
