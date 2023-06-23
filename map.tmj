@@ -4621,7 +4621,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet.jit.si"
+                         "value":"meet02.workadventure.labneosoft.fr"
                         }, 
                         {
                          "name":"meetingRoomLabel",
@@ -5954,7 +5954,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet.jit.si"
+                         "value":"meet01.workadventure.labneosoft.fr"
                         }, 
                         {
                          "name":"meetingRoomLabel",
