@@ -4480,7 +4480,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet02.workadventure.labneosoft.fr"
+                         "value":"meet.jit.si"
                         }, 
                         {
                          "name":"meetingRoomLabel",
