@@ -5793,7 +5793,7 @@
                         {
                          "name":"jitsiConfig",
                          "type":"string",
-                         "value":"{\n  \"startWithAudioMuted\": true,\n  \"startWithVideoMuted\": true\n}"
+                         "value":"{\n  \"startWithAudioMuted\": true,\n  \"startWithVideoMuted\": true,\n  \"liveStreaming\": true\n}"
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -5809,11 +5809,6 @@
                          "name":"jitsiUrl",
                          "type":"string",
                          "value":"meet01.workadventure.labneosoft.fr"
-                        }, 
-                        {
-                         "name":"liveStreaming",
-                         "type":"bool",
-                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
