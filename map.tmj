@@ -5801,19 +5801,14 @@
                          "value":"Amphi"
                         }, 
                         {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"Speaker"
+                        }, 
+                        {
                          "name":"meetingRoomLabel",
                          "type":"string",
                          "value":"Ampli"
-                        }, 
-                        {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"silent",
-                         "type":"bool",
-                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
