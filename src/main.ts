@@ -39,9 +39,7 @@ WA.onInit().then(() => {
             textColor: "#FFFFFF",
             closable: false
         });
-        }
-
-        if (maintenant.getTime() === heureAction2.getTime()) {
+        } else if (maintenant.getTime() === heureAction2.getTime()) {
             // Déclencher ton action ici
             //console.log("Action déclenchée à l'heure précise !");
             //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
@@ -52,9 +50,11 @@ WA.onInit().then(() => {
               textColor: "#FFFFFF",
               closable: false
           });
-          }
-      }
-      
+          } else {
+            // Aucune des heures n'est encore passée
+            console.log("Aucune des heures n'est encore passée.");
+        }
+              
       // Vérifier l'heure toutes les secondes
     setInterval(verifierHeure, 1000);
 
