@@ -8309,29 +8309,6 @@
                  "y":305.4425
                 }, 
                 {
-                 "class":"",
-                 "height":103.333,
-                 "id":141,
-                 "name":"indice3Popup",
-                 "rotation":0,
-                 "visible":true,
-                 "width":280.667,
-                 "x":53.1330833333333,
-                 "y":3191.4415
-                }, 
-                {
-                 "class":"area",
-                 "ellipse":true,
-                 "height":92.6667,
-                 "id":142,
-                 "name":"indice3",
-                 "rotation":0,
-                 "visible":true,
-                 "width":116,
-                 "x":218.343583333333,
-                 "y":3296.5315
-                }, 
-                {
                  "class":"area",
                  "ellipse":true,
                  "height":72.6667,
@@ -8973,6 +8950,29 @@
                  "width":830.667,
                  "x":525.6665,
                  "y":1274
+                }, 
+                {
+                 "class":"",
+                 "height":103.333,
+                 "id":171,
+                 "name":"indice3Popup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":280.667,
+                 "x":50.39455,
+                 "y":3198.12165
+                }, 
+                {
+                 "class":"area",
+                 "ellipse":true,
+                 "height":92.6667,
+                 "id":172,
+                 "name":"indice3",
+                 "rotation":0,
+                 "visible":true,
+                 "width":116,
+                 "x":215.60545,
+                 "y":3303.21165
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9241,7 +9241,7 @@
          "y":0
         }],
  "nextlayerid":153,
- "nextobjectid":171,
+ "nextobjectid":173,
  "orientation":"orthogonal",
  "properties":[
         {
