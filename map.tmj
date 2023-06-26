@@ -8907,6 +8907,11 @@
                          "name":"focusable",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"zoomMargin",
+                         "type":"string",
+                         "value":"0.5"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -8924,6 +8929,11 @@
                          "name":"focusable",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"zoomMargin",
+                         "type":"string",
+                         "value":"0.5"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -8941,6 +8951,11 @@
                          "name":"focusable",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"zoomMargin",
+                         "type":"string",
+                         "value":"0.5"
                         }],
                  "rotation":0,
                  "visible":true,
