@@ -11,17 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-    WA.ui.banner.openBanner({
-        id: "banner-test",
-        text: "Banner test",
-        bgColor: "#000000",
-        textColor: "#ffffff",
-        closable: false,
-        link: {
-            label: "Test",
-            url: "https://workadventu.re"
-        }
-    });
+
 
     function verifierHeure() {
         // Obtenir l'heure actuelle
@@ -30,7 +20,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
         heureAction.setHours(18); // Heure : 9 (exemple)
-        heureAction.setMinutes(22); // Minutes : 0 (exemple)
+        heureAction.setMinutes(27); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -38,14 +28,17 @@ WA.onInit().then(() => {
           // Déclencher ton action ici
           //console.log("Action déclenchée à l'heure précise !");
           WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
-          /*WA.ui.banner.openBanner({
+          WA.ui.banner.openBanner({
             id: "banner-test",
             text: "Banner test",
             bgColor: "#000000",
             textColor: "#ffffff",
-            //timeToClose: 120000,
+            closable: false,
+            link: {
+                label: "Test",
+                url: "https://workadventu.re"
+            }
         });
-        */
         }
       }
       
