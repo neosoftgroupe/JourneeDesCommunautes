@@ -17,25 +17,42 @@ WA.onInit().then(() => {
         var maintenant = new Date();
       
         // Définir l'heure à laquelle tu souhaites déclencher l'action
-        var heureAction = new Date();
-        heureAction.setHours(11); // Heure : 9 (exemple)
-        heureAction.setMinutes(07); // Minutes : 0 (exemple)
-        heureAction.setSeconds(0); // Secondes : 0 (exemple)
+        var heureAction1 = new Date();
+        heureAction1.setHours(11); // Heure : 9 (exemple)
+        heureAction1.setMinutes(07); // Minutes : 0 (exemple)
+        heureAction1.setSeconds(0); // Secondes : 0 (exemple)
+
+        var heureAction2 = new Date();
+        heureAction2.setHours(12); // Heure : 9 (exemple)
+        heureAction2.setMinutes(47); // Minutes : 0 (exemple)
+        heureAction2.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
-        if (maintenant.getTime() === heureAction.getTime()) {
+        if (maintenant.getTime() === heureAction1.getTime()) {
           // Déclencher ton action ici
           //console.log("Action déclenchée à l'heure précise !");
           //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
           WA.ui.banner.openBanner({
             id: "banner-test",
-            text: "On va bientot commencer, rendez-vous dans l'amphi !",
+            text: "On va bientôt commencer, rendez-vous dans l'amphi !",
             bgColor: "#0055FF",
             textColor: "#FFFFFF",
-            timeToClose: 12000,
             closable: false
         });
         }
+
+        if (maintenant.getTime() === heureAction2.getTime()) {
+            // Déclencher ton action ici
+            //console.log("Action déclenchée à l'heure précise !");
+            //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
+            WA.ui.banner.openBanner({
+              id: "banner-test",
+              text: "On va bientôt conclure, rendez-vous dans l'amphi !",
+              bgColor: "#0055FF",
+              textColor: "#FFFFFF",
+              closable: false
+          });
+          }
       }
       
       // Vérifier l'heure toutes les secondes
