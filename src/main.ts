@@ -11,6 +11,27 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    function verifierHeure() {
+        // Obtenir l'heure actuelle
+        var maintenant = new Date();
+      
+        // Définir l'heure à laquelle tu souhaites déclencher l'action
+        var heureAction = new Date();
+        heureAction.setHours(17); // Heure : 9 (exemple)
+        heureAction.setMinutes(45); // Minutes : 0 (exemple)
+        heureAction.setSeconds(0); // Secondes : 0 (exemple)
+      
+        // Vérifier si l'heure actuelle correspond à l'heure d'action
+        if (maintenant.getTime() === heureAction.getTime()) {
+          // Déclencher ton action ici
+          //console.log("Action déclenchée à l'heure précise !");
+          WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
+        }
+      }
+      
+      // Vérifier l'heure toutes les secondes
+    setInterval(verifierHeure, 1000);
+
     WA.room.area.onEnter('indice1').subscribe(() => {
         // const today = new Date();
         // const time = today.getHours() + ":" + today.getMinutes();
