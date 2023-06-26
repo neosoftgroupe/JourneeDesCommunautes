@@ -8252,7 +8252,7 @@
          "name":"Indices",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":128,
          "x":0,
          "y":0
@@ -8603,7 +8603,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
