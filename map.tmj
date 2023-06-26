@@ -8617,8 +8617,13 @@
                  "class":"area",
                  "height":810,
                  "id":170,
-                 "name":"",
+                 "name":"chatzone",
                  "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Le Chat de l'Amphi"
+                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
@@ -8632,7 +8637,7 @@
                  "rotation":0,
                  "visible":true,
                  "width":830.667,
-                 "x":525.6665,
+                 "x":529.6665,
                  "y":1274
                 }, 
                 {
