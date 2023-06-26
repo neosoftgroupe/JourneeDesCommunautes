@@ -11,6 +11,18 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.ui.banner.openBanner({
+        id: "banner-test",
+        text: "Banner test",
+        bgColor: "#000000",
+        textColor: "#ffffff",
+        closable: false,
+        link: {
+            label: "Test",
+            url: "https://workadventu.re"
+        }
+    });
+
     function verifierHeure() {
         // Obtenir l'heure actuelle
         var maintenant = new Date();
@@ -25,19 +37,15 @@ WA.onInit().then(() => {
         if (maintenant.getTime() === heureAction.getTime()) {
           // Déclencher ton action ici
           //console.log("Action déclenchée à l'heure précise !");
-          //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
-          WA.ui.banner.openBanner({
+          WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
+          /*WA.ui.banner.openBanner({
             id: "banner-test",
             text: "Banner test",
             bgColor: "#000000",
             textColor: "#ffffff",
             //timeToClose: 120000,
-            link: {
-                label: "Test",
-                url: "https://workadventu.re"
-            }
         });
-        
+        */
         }
       }
       
