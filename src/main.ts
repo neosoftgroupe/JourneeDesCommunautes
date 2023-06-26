@@ -54,6 +54,7 @@ WA.onInit().then(() => {
             // Aucune des heures n'est encore passée
             console.log("Aucune des heures n'est encore passée.");
         }
+    }
               
       // Vérifier l'heure toutes les secondes
     setInterval(verifierHeure, 1000);
