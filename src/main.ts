@@ -173,7 +173,7 @@ WA.onInit().then(() => {
     WA.room.area.onEnter('rs').subscribe(() => {
         currentPopup = WA.ui.openPopup("rsPopup", "Tu veux nous suivre sur les réseaux sociaux ?", [{
             label: "Linkedin",
-            className: "normal",
+            className: "primary",
             callback: (popup) => {
                 WA.openTab('https://www.linkedin.com/company/neosoft_'),
                 // Close the popup when the "Close" button is pressed.
@@ -182,7 +182,7 @@ WA.onInit().then(() => {
         },
         {
             label: 'Twitter',
-            className: 'success',
+            className: 'primary',
             callback: (popup) => {
                 WA.openTab('https://twitter.com/neosoft_'),
                 popup.close();
