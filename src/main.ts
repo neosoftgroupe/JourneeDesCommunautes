@@ -26,15 +26,11 @@ WA.onInit().then(() => {
           // Déclencher ton action ici
           //console.log("Action déclenchée à l'heure précise !");
           //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
-          const triggerMessage = WA.ui.displayActionMessage({
+          WA.ui.displayActionMessage({
             message: "Ca va bientôt commencer, rendez-vous dans l'amphithéâtre !",
             callback: () => void,
-        });
+        }): ActionMessage
         
-        setTimeout(() => {
-            // later
-            triggerMessage.remove();
-        }, 1000)
 
         }
       }
