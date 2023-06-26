@@ -19,12 +19,12 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction1 = new Date();
         heureAction1.setHours(21); // Heure : 9 (exemple)
-        heureAction1.setMinutes(3); // Minutes : 0 (exemple)
+        heureAction1.setMinutes(25); // Minutes : 0 (exemple)
         heureAction1.setSeconds(0); // Secondes : 0 (exemple)
 
         var heureAction2 = new Date();
         heureAction2.setHours(21); // Heure : 9 (exemple)
-        heureAction2.setMinutes(8); // Minutes : 0 (exemple)
+        heureAction2.setMinutes(30); // Minutes : 0 (exemple)
         heureAction2.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -34,7 +34,7 @@ WA.onInit().then(() => {
           //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
           WA.ui.banner.openBanner({
             id: "banner-test",
-            text: "On va bientôt commencer, rendez-vous dans l'amphi !",
+            text: "On va bientôt commencer, rendez-vous dans l'amphi ! :)",
             bgColor: "#0055FF",
             textColor: "#FFFFFF",
             closable: false
@@ -45,15 +45,15 @@ WA.onInit().then(() => {
             //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
             WA.ui.banner.openBanner({
               id: "banner-test",
-              text: "On va bientôt conclure, rendez-vous dans l'amphi !",
+              text: "C'est bientôt la fin... Rendez-vous dans l'amphi pour la conclusion !",
               bgColor: "#0055FF",
               textColor: "#FFFFFF",
               closable: false
           });
-          } else {
+          } //else {
             // Aucune des heures n'est encore passée
             console.log("Aucune des heures n'est encore passée.");
-        }
+        //}
     }
 
       // Vérifier l'heure toutes les secondes
