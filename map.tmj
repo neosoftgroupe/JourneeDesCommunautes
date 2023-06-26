@@ -2158,6 +2158,11 @@
                          "value":"https:\/\/forms.office.com\/Pages\/ResponsePage.aspx?id=ZXCwCcgVVk-BLOIjxti9LQ6H7_5g-DBIvFuGy7UR6HBURFBJU1FPS0w5RVZBRFBDUEU1NzJCQlpFSy4u"
                         }, 
                         {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Enquete de satisfaction"
@@ -2299,6 +2304,11 @@
                          "value":"https:\/\/landing.neosoft.fr\/forum-des-communautes-27-juin"
                         }, 
                         {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Programme de la journ\u00e9e !"
@@ -2431,7 +2441,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":119,
                  "id":151,
-                 "name":"Calque de Tuiles 57",
+                 "name":"Live",
                  "opacity":1,
                  "properties":[
                         {
@@ -6087,11 +6097,6 @@
                  "name":"Amphi",
                  "opacity":1,
                  "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{\n  \"startWithAudioMuted\": true,\n  \"startWithVideoMuted\": true\n}"
-                        }, 
                         {
                          "name":"jitsiNoPrefix",
                          "type":"string",
