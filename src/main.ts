@@ -32,7 +32,7 @@ WA.onInit().then(() => {
             bgColor: "#000000",
             textColor: "#ffffff",
             closable: false,
-            timeToClose: 120000,
+            timeToClose: 120000
         });
         
         }
