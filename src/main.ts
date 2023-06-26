@@ -18,7 +18,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
         heureAction.setHours(18); // Heure : 9 (exemple)
-        heureAction.setMinutes(00); // Minutes : 0 (exemple)
+        heureAction.setMinutes(05); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -29,9 +29,8 @@ WA.onInit().then(() => {
           WA.ui.displayActionMessage({
             message: "Ca va bientôt commencer, rendez-vous dans l'amphithéâtre !",
             callback: () => void,
-        }): ActionMessage
+        });
         
-
         }
       }
       
