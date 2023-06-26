@@ -19,7 +19,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
         heureAction.setHours(19); // Heure : 9 (exemple)
-        heureAction.setMinutes(11); // Minutes : 0 (exemple)
+        heureAction.setMinutes(16); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -32,7 +32,7 @@ WA.onInit().then(() => {
             text: "test",
             bgColor: "#0055FF",
             textColor: "#FF5252",
-            closable: true
+            closable: false
         });
         }
       }
