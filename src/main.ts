@@ -32,8 +32,8 @@ WA.onInit().then(() => {
             text: "On va bientot commencer, rendez-vous dans l'amphi !",
             bgColor: "#0055FF",
             textColor: "#FFFFFF",
-            closable: false,
             timeToClose: 12000,
+            closable: false
         });
         }
       }
