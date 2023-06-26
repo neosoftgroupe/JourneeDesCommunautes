@@ -3532,6 +3532,16 @@
                          "value":"DMC"
                         }, 
                         {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Echange avec Benoit - \u00e0 partir de 11h45 !"
+                        }, 
+                        {
                          "name":"jitsiUrl",
                          "type":"string",
                          "value":"meet04.workadventure.labneosoft.fr"
@@ -8394,7 +8404,7 @@
                          "value":true
                         }, 
                         {
-                         "name":"zoomMargin",
+                         "name":"zoom_Margin",
                          "type":"float",
                          "value":0.2
                         }],
@@ -8901,7 +8911,7 @@
                         {
                          "name":"zoom_Margin",
                          "type":"float",
-                         "value":0.4
+                         "value":0.8
                         }],
                  "rotation":0,
                  "visible":true,
@@ -8921,7 +8931,7 @@
                          "value":true
                         }, 
                         {
-                         "name":"zoomMargin",
+                         "name":"zoom_Margin",
                          "type":"float",
                          "value":0.8
                         }],
@@ -8943,7 +8953,7 @@
                          "value":true
                         }, 
                         {
-                         "name":"zoomMargin",
+                         "name":"zoom_Margin",
                          "type":"float",
                          "value":0.8
                         }],
@@ -8977,7 +8987,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":213,
+                 "height":317,
                  "id":213,
                  "name":"",
                  "properties":[
@@ -8993,7 +9003,7 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":304.667,
+                 "width":444.667,
                  "x":3423.62268181818,
                  "y":217.106545454545
                 }, 
@@ -9009,7 +9019,7 @@
                          "value":true
                         }, 
                         {
-                         "name":"zoomMargin",
+                         "name":"zoom_Margin",
                          "type":"float",
                          "value":0.3
                         }],
