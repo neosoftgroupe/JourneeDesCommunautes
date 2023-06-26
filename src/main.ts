@@ -19,7 +19,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
         heureAction.setHours(18); // Heure : 9 (exemple)
-        heureAction.setMinutes(36); // Minutes : 0 (exemple)
+        heureAction.setMinutes(48); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -30,13 +30,9 @@ WA.onInit().then(() => {
           WA.ui.banner.openBanner({
             id: "banner-test",
             text: "Banner test",
-            bgColor: "#000000",
-            textColor: "#ffffff",
-            closable: false,
-            link: {
-                label: "Test",
-                url: "https://workadventu.re"
-            }
+            bgColor: "#FF5252",
+            textColor: "#0055FF",
+            closable: true
         });
         }
       }
