@@ -32,6 +32,7 @@ WA.onInit().then(() => {
             text: "Banner test",
             bgColor: "#FF5252",
             textColor: "#0055FF",
+            timeToClose: 10000,
             closable: true
         });
         }
