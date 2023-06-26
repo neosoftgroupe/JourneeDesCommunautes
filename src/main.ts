@@ -19,7 +19,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
         heureAction.setHours(19); // Heure : 9 (exemple)
-        heureAction.setMinutes(7); // Minutes : 0 (exemple)
+        heureAction.setMinutes(11); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -29,7 +29,7 @@ WA.onInit().then(() => {
           //WA.chat.sendChatMessage("Action déclenchée à l'heure précise !", " Mr Robot");
           WA.ui.banner.openBanner({
             id: "soon",
-            text: "Ca va bientôt commencer ! Rendez-vous dans l'amphithéâtre !",
+            text: "test",
             bgColor: "#0055FF",
             textColor: "#FF5252",
             closable: true
