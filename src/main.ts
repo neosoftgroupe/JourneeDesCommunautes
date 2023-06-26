@@ -158,7 +158,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('indice8').subscribe(closePopup)
 
     WA.room.area.onEnter('indice9').subscribe(() => {
-        currentPopup = WA.ui.openPopup("indice9Popup", "Mon tout est l'anagramme d'une plante connues pour ses jolies fleurs bleues !", [{
+        currentPopup = WA.ui.openPopup("indice9Popup", "Mon tout est l'anagramme d'une plante connue pour ses jolies fleurs bleues !", [{
             label: "Rendez-vous dans l'enquete de satisfaction pour répondre !",
             className: "primary",
             callback: (popup) => {
