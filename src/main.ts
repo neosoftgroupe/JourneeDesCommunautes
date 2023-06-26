@@ -19,7 +19,7 @@ WA.onInit().then(() => {
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction1 = new Date();
         heureAction1.setHours(11); // Heure : 9 (exemple)
-        heureAction1.setMinutes(07); // Minutes : 0 (exemple)
+        heureAction1.setMinutes(7); // Minutes : 0 (exemple)
         heureAction1.setSeconds(0); // Secondes : 0 (exemple)
 
         var heureAction2 = new Date();
@@ -55,7 +55,7 @@ WA.onInit().then(() => {
             console.log("Aucune des heures n'est encore passée.");
         }
     }
-              
+
       // Vérifier l'heure toutes les secondes
     setInterval(verifierHeure, 1000);
 
