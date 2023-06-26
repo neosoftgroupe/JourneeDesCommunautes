@@ -8911,7 +8911,7 @@
                         {
                          "name":"zoomMargin",
                          "type":"string",
-                         "value":"0.5"
+                         "value":"0.1"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -8955,7 +8955,7 @@
                         {
                          "name":"zoomMargin",
                          "type":"string",
-                         "value":"0.5"
+                         "value":"0.2"
                         }],
                  "rotation":0,
                  "visible":true,
