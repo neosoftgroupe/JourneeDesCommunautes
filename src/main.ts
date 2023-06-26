@@ -18,8 +18,8 @@ WA.onInit().then(() => {
       
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction = new Date();
-        heureAction.setHours(19); // Heure : 9 (exemple)
-        heureAction.setMinutes(26); // Minutes : 0 (exemple)
+        heureAction.setHours(11); // Heure : 9 (exemple)
+        heureAction.setMinutes(07); // Minutes : 0 (exemple)
         heureAction.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -32,7 +32,8 @@ WA.onInit().then(() => {
             text: "On va bientot commencer, rendez-vous dans l'amphi !",
             bgColor: "#0055FF",
             textColor: "#FFFFFF",
-            closable: false
+            closable: false,
+            timeToClose: 12000,
         });
         }
       }
