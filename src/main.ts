@@ -18,13 +18,13 @@ WA.onInit().then(() => {
       
         // Définir l'heure à laquelle tu souhaites déclencher l'action
         var heureAction1 = new Date();
-        heureAction1.setHours(21); // Heure : 9 (exemple)
-        heureAction1.setMinutes(25); // Minutes : 0 (exemple)
+        heureAction1.setHours(11); // Heure : 9 (exemple)
+        heureAction1.setMinutes(5); // Minutes : 0 (exemple)
         heureAction1.setSeconds(0); // Secondes : 0 (exemple)
 
         var heureAction2 = new Date();
-        heureAction2.setHours(21); // Heure : 9 (exemple)
-        heureAction2.setMinutes(30); // Minutes : 0 (exemple)
+        heureAction2.setHours(12); // Heure : 9 (exemple)
+        heureAction2.setMinutes(45); // Minutes : 0 (exemple)
         heureAction2.setSeconds(0); // Secondes : 0 (exemple)
       
         // Vérifier si l'heure actuelle correspond à l'heure d'action
@@ -52,7 +52,7 @@ WA.onInit().then(() => {
           });
           } //else {
             // Aucune des heures n'est encore passée
-            console.log("Aucune des heures n'est encore passée.");
+            //console.log("Aucune des heures n'est encore passée.");
         //}
     }
 
