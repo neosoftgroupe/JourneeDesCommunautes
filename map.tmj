@@ -8422,6 +8422,11 @@
                  "name":"",
                  "properties":[
                         {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 01"
+                        }, 
+                        {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
@@ -8443,6 +8448,11 @@
                  "id":99,
                  "name":"",
                  "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 02"
+                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
@@ -8466,6 +8476,11 @@
                  "name":"",
                  "properties":[
                         {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 04"
+                        }, 
+                        {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
@@ -8487,6 +8502,11 @@
                  "id":106,
                  "name":"",
                  "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 03"
+                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
@@ -8510,6 +8530,11 @@
                  "name":"",
                  "properties":[
                         {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 05"
+                        }, 
+                        {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
@@ -8531,6 +8556,11 @@
                  "id":108,
                  "name":"",
                  "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 08"
+                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
@@ -8554,6 +8584,11 @@
                  "name":"",
                  "properties":[
                         {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 06"
+                        }, 
+                        {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
@@ -8575,6 +8610,11 @@
                  "id":110,
                  "name":"",
                  "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Chat - Salle 07"
+                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
@@ -8711,14 +8751,14 @@
                 }, 
                 {
                  "class":"",
-                 "height":117.667,
+                 "height":98.667,
                  "id":197,
                  "name":"indice2Popup",
                  "rotation":0,
                  "visible":true,
-                 "width":286,
-                 "x":3315.92268181818,
-                 "y":205.133545454545
+                 "width":174,
+                 "x":3427.92268181818,
+                 "y":224.133545454545
                 }, 
                 {
                  "class":"area",
@@ -8746,25 +8786,25 @@
                 }, 
                 {
                  "class":"",
-                 "height":67.6667,
+                 "height":87.1667,
                  "id":200,
                  "name":"indice5Popup",
                  "rotation":0,
                  "visible":true,
-                 "width":181.167,
-                 "x":290.616681818182,
-                 "y":1328.77554545454
+                 "width":143.167,
+                 "x":232.616681818182,
+                 "y":1303.27554545454
                 }, 
                 {
                  "class":"",
-                 "height":142.667,
+                 "height":107.667,
                  "id":201,
                  "name":"indice7Popup",
                  "rotation":0,
                  "visible":true,
-                 "width":280.667,
-                 "x":1405.68268181818,
-                 "y":273.894545454545
+                 "width":222.667,
+                 "x":1402.68268181818,
+                 "y":308.894545454545
                 }, 
                 {
                  "class":"area",
@@ -8786,8 +8826,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":178.667,
-                 "x":3699.35268181818,
-                 "y":3073.22554545454
+                 "x":3610.01934848485,
+                 "y":3038.55887878788
                 }, 
                 {
                  "class":"area",
@@ -8798,8 +8838,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":110.727,
-                 "x":3680.89268181818,
-                 "y":3168.80554545454
+                 "x":3662.22601515152,
+                 "y":3156.80554545454
                 }, 
                 {
                  "class":"",
@@ -8826,14 +8866,14 @@
                 }, 
                 {
                  "class":"",
-                 "height":132.667,
+                 "height":101.667,
                  "id":207,
                  "name":"indice4Popup",
                  "rotation":0,
                  "visible":true,
-                 "width":204.667,
-                 "x":3029.98268181818,
-                 "y":1867.32554545454
+                 "width":158.667,
+                 "x":2810.98268181818,
+                 "y":1930.32554545454
                 }, 
                 {
                  "class":"area",
@@ -8844,12 +8884,12 @@
                  "rotation":0,
                  "visible":true,
                  "width":146.667,
-                 "x":2925.68268181818,
-                 "y":1990.87554545455
+                 "x":2888.68268181818,
+                 "y":1985.87554545455
                 }, 
                 {
                  "class":"area",
-                 "height":122.832666666667,
+                 "height":168.832666666667,
                  "id":209,
                  "name":"",
                  "properties":[
@@ -8865,9 +8905,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":171.999333333333,
-                 "x":237.783015151515,
-                 "y":1348.93887878788
+                 "width":179.499333333333,
+                 "x":230.283015151515,
+                 "y":1302.93887878788
                 }, 
                 {
                  "class":"area",
@@ -8915,7 +8955,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":154,
+                 "height":210,
                  "id":212,
                  "name":"",
                  "properties":[
@@ -8931,13 +8971,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":230.667,
+                 "width":380.667,
                  "x":1253.62268181818,
-                 "y":354.106545454545
+                 "y":298.106545454545
                 }, 
                 {
                  "class":"area",
-                 "height":154,
+                 "height":213,
                  "id":213,
                  "name":"",
                  "properties":[
@@ -8953,9 +8993,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":230.667,
-                 "x":3497.62268181818,
-                 "y":276.106545454545
+                 "width":304.667,
+                 "x":3423.62268181818,
+                 "y":217.106545454545
                 }, 
                 {
                  "class":"area",
@@ -8971,13 +9011,13 @@
                         {
                          "name":"zoomMargin",
                          "type":"float",
-                         "value":0.8
+                         "value":0.6
                         }],
                  "rotation":0,
                  "visible":true,
                  "width":230.667,
-                 "x":2846.62268181818,
-                 "y":1945.10554545455
+                 "x":2801.62268181818,
+                 "y":1947.10554545455
                 }],
          "opacity":1,
          "type":"objectgroup",
