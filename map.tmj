@@ -3232,7 +3232,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet04.workadventure.labneosoft.fr"
+                         "value":"meet01.workadventure.labneosoft.fr"
                         }, 
                         {
                          "name":"meetingRoomLabel",
@@ -3383,7 +3383,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet04.workadventure.labneosoft.fr"
+                         "value":"meet01.workadventure.labneosoft.fr"
                         }, 
                         {
                          "name":"meetingRoomLabel",
@@ -3544,7 +3544,7 @@
                         {
                          "name":"jitsiUrl",
                          "type":"string",
-                         "value":"meet04.workadventure.labneosoft.fr"
+                         "value":"meet01.workadventure.labneosoft.fr"
                         }, 
                         {
                          "name":"meetingRoomLabel",
@@ -8955,8 +8955,59 @@
                  "rotation":0,
                  "visible":true,
                  "width":250.667,
-                 "x":641.6665,
-                 "y":2714
+                 "x":643.6665,
+                 "y":2718
+                }, 
+                {
+                 "class":"area",
+                 "height":90,
+                 "id":216,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Zone Info"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":153.667,
+                 "x":737.6665,
+                 "y":2146
+                }, 
+                {
+                 "class":"area",
+                 "height":128,
+                 "id":217,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Echange avec St\u00e9phane du Labgo"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":187.667,
+                 "x":1281.1665,
+                 "y":2717
+                }, 
+                {
+                 "class":"area",
+                 "height":128,
+                 "id":218,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Echange avec Benoit de la DMC"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":187.667,
+                 "x":1105.1665,
+                 "y":2680
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9225,7 +9276,7 @@
          "y":0
         }],
  "nextlayerid":154,
- "nextobjectid":216,
+ "nextobjectid":219,
  "orientation":"orthogonal",
  "properties":[
         {
